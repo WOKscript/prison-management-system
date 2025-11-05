@@ -79,7 +79,6 @@ $ic_logout = '<svg class="h-5 w-5 opacity-90" fill="none" stroke="currentColor" 
             echo sb_link('../../roles/admin/medical.php', 'Medical Records', $ic_med);
             echo sb_link('../../roles/admin/users.php', 'Users & Roles', $ic_users2);
             echo sb_link('../../roles/admin/visitation.php', 'Visitations', $ic_cal);
-            echo sb_link('../../roles/admin/reports.php', 'Reports & Analytics', $ic_chart);
             break;
 
           case 2: // Correctional Officer

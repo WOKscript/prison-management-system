@@ -69,19 +69,6 @@ $role_id   = $_SESSION['role_id'] ?? null; // role_label() is defined in header.
       <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <svg class="w-8 h-8 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-            </svg>
-          </div>
-          <div class="ml-4">
-            <p class="text-sm font-medium text-slate-500">Reports Generated</p>
-            <p class="text-2xl font-bold text-slate-900"><?= (int)$reports_generated ?></p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
-        <div class="flex items-center">
-          <div class="flex-shrink-0">
             <svg class="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
             </svg>
@@ -126,24 +113,6 @@ $role_id   = $_SESSION['role_id'] ?? null; // role_label() is defined in header.
         <p class="text-slate-600 mb-4">Add, edit, or remove system users and roles.</p>
         <span class="inline-flex items-center text-sm font-medium text-green-700 group-hover:text-green-800 group-hover:underline">
           Go to Users
-          <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-          </svg>
-        </span>
-      </a>
-
-      <a href="reports.php" class="group block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:border-purple-300">
-        <div class="flex items-center mb-4">
-          <div class="flex-shrink-0">
-            <svg class="w-10 h-10 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-            </svg>
-          </div>
-          <h2 class="ml-4 text-xl font-semibold text-slate-800 group-hover:text-purple-600">Reports</h2>
-        </div>
-        <p class="text-slate-600 mb-4">Generate and view system reports.</p>
-        <span class="inline-flex items-center text-sm font-medium text-purple-700 group-hover:text-purple-800 group-hover:underline">
-          Go to Reports
           <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
           </svg>
